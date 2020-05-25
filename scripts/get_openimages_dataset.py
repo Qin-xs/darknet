@@ -17,3 +17,4 @@ with open('path\\train-annotations-bbox.csv', newline='') as csvfile:
                     img_name = bbox[0]
             if img_name == bbox[0]:
                 out_file.write(str(CLASS_LIST.index(bbox[2])) + " " + str(float(bbox[4])+(float(bbox[5])-float(bbox[4]))/2) + " " + str(float(bbox[6])+(float(bbox[7])-float(bbox[6]))/2)+ " " + str(float(bbox[5])-float(bbox[4])) + " " + str(float(bbox[7])-float(bbox[6])) + '\n')
+#米咪到此一游
